@@ -1,9 +1,13 @@
+.partners-section .content-title {
+	margin-bottom: 7px;
+}
+
 .partners-section .subtitle {
 	font-family: 'ProximaNova Light';
 	font-size: 18px;
 	color: #9a9a9a;
 	margin-bottom: 20px;
-	line-height: 1.6;
+	line-height: 30px;
 }
 .partners-section .grid li .image-holder {
 	display: table;
@@ -20,12 +24,12 @@
 .partners-section .grid li .title {
 	font-family: 'ProximaNova Bold';
 	font-size: 18px;
-	margin-bottom: 5px;
+	margin-bottom: 8px;
 }
 .partners-section .grid li p {
 	font-family: 'ProximaNova Light';
 	font-size: 14px;
-	line-height: 1.6;
+	line-height: 24px;
 	margin: 8px 0;
 }
 .partners-section .grid li .website {
@@ -33,7 +37,7 @@
 }
 
 .partners-section .description {
-	padding: 20px 0;
+	padding: 27px 0;
 }
 /*.partners-section .partner-info {
 	padding: 0;

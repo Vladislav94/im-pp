@@ -1,3 +1,7 @@
+.news-section .content-title {
+	margin-bottom: 
+}
+
 .news-section .grid li {
 	margin-bottom: 30px;
 }
@@ -5,11 +9,11 @@
 	width: 100%;
 }
 .news-section .grid li .description {
-	padding: 25px 30px;
+	padding: 25px 29px;
 	background: #f3f3f3;
 }
 .news-section .grid li .info {
-	padding: 70px 30px;
+	padding: 76px 30px;
 	background: #343775;
 	font-family: 'ProximaNova Bold';
 	font-size: 22px;
@@ -28,6 +32,7 @@
 .news-section .grid li .subtitle {
 	font-family: 'ProximaNova Light';
 	margin-bottom: 30px;
+	line-height: 24px;
 }
 .news-section .grid li p {
 	font-family: 'ProximaNova Light';

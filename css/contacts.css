@@ -1,3 +1,7 @@
+.contacts_section .content-title {
+	margin-bottom: 13px;
+}
+
 .contacts_content .contacts_img {
 	width: 415px;
 	float: left;
@@ -11,9 +15,10 @@
 	padding-left: 40px;
 }
 .contacts_content .contacts_info .main-contacts p {
-	margin: 0 0 5px;
+	margin: 0 0 17px;
 	font-family: 'ProximaNova Light';
 	font-size: 18px;
+	line-height: 13px; 
 }
 .contacts_content .contacts_info .main-contacts p a {
 	font-size: 18px;
@@ -21,7 +26,8 @@
 }
 .contacts_content .contacts_info .open-time {
 	font-size: 14px;
-	margin: 25px 0;
+	line-height: 23px;
+	margin: 27px 0 25px;
 	max-width: 430px;
 }
 .contacts_content .contacts_info .write-dir {
@@ -31,15 +37,16 @@
 }
 
 .contacts_map {
-	margin-top: 40px;
+	margin-top: 39px;
 }
 
 .contacts_feedback {
-	margin-top: 40px;
+	margin-top: 30px;
 }
 .contacts_feedback h2 {
+	font-family: 'ProximaNova Light';
 	font-size: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 26px;
 	text-align: center;
 }
 .contacts_feedback form {
@@ -51,7 +58,7 @@
 }
 .contacts_feedback select {
     display: block;
-    padding: 5px 0 5px 68px;
+    padding: 5px 0 5px 6px;
     width: 100%;
     background: none;
     border: none;
