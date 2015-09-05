@@ -1353,7 +1353,7 @@ a.btn-26 {
 
   width: 157px;
   height: 53px;
-
+  padding-left: 10px;
   cursor: pointer;
   text-align: center; 
   vertical-align: top;
@@ -1443,6 +1443,7 @@ a.btn-26 {
 }
 .h-top-3 {
   margin-left: 2px;
+  margin-right: 29px;
 }
 .h-top-3:before {
   margin-right: 7px; 
@@ -1458,6 +1459,9 @@ a.btn-26 {
 
   content: url('../img/design/header-icons/4.png');
 }
+.h-top-5 {
+  margin-right: 0;
+}
 .h-top-5:before {
   position: relative;
   top: 2px; 
@@ -1469,7 +1473,7 @@ a.btn-26 {
 }
 .h-top-6 {
   margin-left: 33px;
-
+  margin-right: 31px;
   letter-spacing: .04em;
 }
 .h-top a:hover {
