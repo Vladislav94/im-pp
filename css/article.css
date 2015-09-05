@@ -19,7 +19,7 @@
 .article-section .article-content p {
   font-size: 14px;
   color: #000;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 .article-section .article-content a {
@@ -47,12 +47,14 @@
 
 .article-section .article-fact .article-fact_text:last-of-type {
   margin-bottom: 0;
+  margin-top: 10px;
+  line-height: 1.7;
 }
 
 
 
 .article-section .back-to_list {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 

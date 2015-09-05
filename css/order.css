@@ -1,3 +1,7 @@
+.order-section .order-form {
+  margin-top: 22px;
+}
+
 .order-section .order-form_section {
   width: 50%;
   width: calc(50% - 20px);

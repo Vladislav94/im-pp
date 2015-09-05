@@ -364,7 +364,7 @@ a.btn-26 {
   width: 870px;
   float: right;
   background: #fff;
-  padding: 35px 40px 80px;
+  padding: 20px 40px 80px;
   margin-bottom: 20px;
 }
 
@@ -390,13 +390,13 @@ a.btn-26 {
 /* Filter */
 
 .sidebar .main-filter {
-  padding: 40px;
+  padding: 36px 40px;
 }
 
 .main-filter .filter-inner {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   border-bottom: 1px solid #e6e6e6;
-  margin-bottom: 28px;
+  margin-bottom: 30px;
 }
 
 .main-filter .filter-inner:last-of-type {
@@ -407,10 +407,10 @@ a.btn-26 {
   font-size: 13px;
   text-transform: uppercase;
   font-family: 'ProximaNova Bold';
-  margin-bottom: 12px;
+  margin-bottom: 15px;
 }
 .main-filter .filter-items_scroll {
-  max-height: 120px;
+  max-height: 130px;
 }
 
 .main-filter .filter-size .input-wrap {
@@ -524,7 +524,7 @@ a.btn-26 {
 }
 
 .filter-range .inputs-group {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .filter-range .inputs-group .input-wrap {
@@ -602,8 +602,7 @@ a.btn-26 {
 
 .breadcrumb {
   padding-left: 0;
-  margin: 0;
-  margin-bottom: 10px;
+  margin: 13px 0;
 }
 .breadcrumb li {
   display: inline-block;
@@ -785,6 +784,8 @@ a.btn-26 {
 }
 .card-item .card-item_items .number-of_items {
   display: inline-block;
+  margin-top: -8px;
+  margin-left: 22px;
 }
 
 .card-item_items .number-of_items .item-rem,
@@ -2065,8 +2066,8 @@ a.btn-26 {
 
 .special__tabs-content .owl-controls .owl-prev {
   position: absolute;
-  top: 110px;
-  left: 20px;
+  top: 114px;
+  left: 15px;
   width: 1px;
   border: 10px solid transparent;
   border-right-color: #c4c4c4;
@@ -2078,8 +2079,8 @@ a.btn-26 {
 
 .special__tabs-content .owl-controls .owl-next {
   position: absolute;
-  top: 110px;
-  right: 30px;
+  top: 114px;
+  right: 25px;
   width: 1px;
   border: 10px solid transparent;
   border-left-color: #c4c4c4;
@@ -2124,7 +2125,7 @@ a.btn-26 {
   font-size: 18px;
   font-weight: 700;
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: #383a73;
 }
 .special__art {
@@ -2476,6 +2477,11 @@ Icon classes can be used entirely standalone. They are named after their origina
   .card-item .card-item_option {
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .card-item .card-item_items .number-of_items {
+    margin-left: 0;
+    margin-top: 0;
   }
 }
 
