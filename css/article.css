@@ -1,0 +1,75 @@
+.article-section {
+  font-family: 'ProximaNova Light';
+}
+
+.article-section .article-content_right {
+  float: right;
+  margin-left: 40px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+.article-section .article-content_left {
+  float: left;
+  margin-right: 40px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+.article-section .article-content p {
+  font-size: 14px;
+  color: #000;
+  line-height: 1.6;
+}
+
+.article-section .article-content a {
+  color: #43468F;
+}
+
+.article-section .article-fact {
+  text-align: center;
+  padding: 40px 0;
+  width: 235px;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.article-section .article-fact .article-fact_title {
+  font-family: 'ProximaNova Bold';
+  line-height: 1.2;
+}
+
+.article-section .article-fact .article-fact_text {
+  color: #666666;
+  line-height: 1.6;
+  font-family: 'ProximaNova ILight';
+}
+
+.article-section .article-fact .article-fact_text:last-of-type {
+  margin-bottom: 0;
+}
+
+
+
+.article-section .back-to_list {
+  margin-top: 10px;
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .article-section .article-content_right {
+    float: none;
+    margin-left: 0;
+    margin-top: 12px;
+  }
+
+  .article-section .article-content_left {
+    float: none;
+  }
+
+  .article-section .article-fact {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

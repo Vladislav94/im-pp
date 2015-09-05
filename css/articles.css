@@ -1,0 +1,19 @@
+.articles-section .grid li .grid-inner {
+	border-top: 1px solid #e7e7e7;
+	padding: 35px 0;
+}
+.articles-section .grid li .title {
+	font-size: 18px;
+	font-family: 'ProximaNova Bold';
+}
+.articles-section .grid li p {
+	font-family: 'ProximaNova Light';
+	font-size: 14px;
+	line-height: 1.6;
+	margin: 8px 0;
+}
+.articles-section .grid li .date {
+	font-family: 'ProximaNova Light';
+	font-size: 14px;
+	color: #9a9a9a;
+}

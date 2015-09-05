@@ -1,0 +1,42 @@
+.news-section .grid li {
+	margin-bottom: 30px;
+}
+.news-section .grid li .image-holder img {
+	width: 100%;
+}
+.news-section .grid li .description {
+	padding: 25px 30px;
+	background: #f3f3f3;
+}
+.news-section .grid li .info {
+	padding: 70px 30px;
+	background: #343775;
+	font-family: 'ProximaNova Bold';
+	font-size: 22px;
+	color: #ffffff;
+	text-align: center;
+}
+.news-section .grid li .title,
+.news-section .grid li .subtitle {
+	font-size: 18px;
+	display: inline-block;
+}
+.news-section .grid li .title {
+	font-family: 'ProximaNova Bold';
+	margin-bottom: 5px;
+}
+.news-section .grid li .subtitle {
+	font-family: 'ProximaNova Light';
+	margin-bottom: 30px;
+}
+.news-section .grid li p {
+	font-family: 'ProximaNova Light';
+	font-size: 14px;
+	line-height: 1.6;
+	margin: 3px 0 8px;
+}
+.news-section .grid li .date {
+	font-family: 'ProximaNova Light';
+	font-size: 14px;
+	color: #9a9a9a;
+}

@@ -1,0 +1,247 @@
+.company-section .company-content {
+  font-size: 14px;
+  color: #000;
+  line-height: 1.8;
+  font-family: 'ProximaNova Light';
+}
+
+.company-section .company-content h2 {
+  margin-top: 22px;
+  margin-bottom: 0;
+  font-family: 'ProximaNova Regular';
+  margin-bottom: -2px;
+}
+
+.company-section .company-content h3 {
+  font-size: 24px;
+}
+
+.company-section .company-content h4 {
+  font-size: 18px;
+}
+
+.company-section .company-content h3,
+.company-section .company-content h4 {
+  margin-bottom: -8px;
+  margin-top: 15px;
+}
+.company-section .company-content .bolder {
+  font-family: 'ProximaNova Bold';
+}
+
+.company-section .company-content .left {
+  float: left;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  margin-right: 40px;
+}
+
+.company-section .company-content .right {
+  float: right;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+}
+
+.company-content .company-subtitle {
+  font-size: 18px;
+  color: #999;
+}
+
+.company-content .number-list {
+  list-style: none;
+  counter-reset: list;
+  padding-left: 155px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-right: 155px;
+}
+
+.company-content .number-list .number-list_item {
+  position: relative;
+  padding-left: 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.company-content .number-list .number-list_item:before {
+  content: counter(list);
+  counter-increment: list;
+  position: absolute;
+  left: 0;
+  top: -2px;
+  background: #04af82;
+  text-align: center;
+  width: 26px;
+  height: 26px;
+  color: #fff;
+  font-size: 12px;
+  padding: 3px 0;
+}
+
+
+.company-content .company-quote {
+  font-size: 24px;
+  text-align: center;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.company-content .company-quote .quote-icon {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.company-content .company-quote .quote-icon:before {
+  content: '';
+  width: 70px;
+  display: inline-block;
+  height: 1px;
+  background: #e6e6e6;
+  vertical-align: middle;
+  margin-right: 25px;
+}
+
+.company-content .company-quote .quote-icon:after {
+  content: '';
+  width: 70px;
+  display: inline-block;
+  height: 1px;
+  background: #e6e6e6;
+  vertical-align: middle;
+  margin-left: 25px;
+}
+
+.company-content .company-quote:after {
+  content: '';
+  display: block;
+  width: 220px;
+  height: 1px;
+  background: #e6e6e6;
+  margin: 25px auto 10px;
+}
+
+
+.company-content .company-list {
+  margin-top: 0;
+  list-style: none;
+  padding-left: 155px;
+  padding-right: 155px;
+}
+
+.company-content .company-list_item {
+  position: relative;
+  padding-left: 25px;
+}
+
+.company-content .company-list_item:before {
+  content: '—';
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 0;
+  color: #04af82;
+}
+
+.company-content .company-fact {
+  text-align: center;
+  padding: 40px 0;
+  width: 240px;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.company-content .company-fact .company-fact_title {
+  font-family: 'ProximaNova Bold';
+  line-height: 1.2;
+}
+
+.company-content .company-fact .company-fact_text {
+  color: #666666;
+  font-family: 'ProximaNova ILight';
+  margin-top: 10px;
+}
+
+.company-content .company-fact .company-fact_text:last-of-type {
+  margin-bottom: 0;
+}
+
+
+.company-content .company-slider {
+  width: 772px;
+  margin: 30px auto;
+}
+
+
+.company-content .company-slider img {
+  width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .company-content .company-quote {
+    width: 100%;
+  }
+
+  .company-content .number-list {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .company-content .company-list {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+  }
+
+  .company-content .company-slider {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  
+  .company-section .company-content {
+    line-height: 1.6;
+  }
+  
+  .company-section .company-content h2,
+  .company-section .company-content h3,
+  .company-section .company-content h4 {
+    line-height: 1.2;
+  }
+
+  .company-section .company-content .left {
+    float: none;
+    margin-right: 0;
+  }
+
+  .company-section .company-content .right {
+    float: none;
+    margin-left: 0;
+  }
+
+  .company-content .img {
+    width: 100%;
+  }
+
+  .company-content .number-list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .company-content .company-list {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .company-content .company-quote {
+    font-size: 20px;
+  }
+
+  .company-content .company-fact {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}

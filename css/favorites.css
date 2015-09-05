@@ -1,0 +1,121 @@
+.favorites-section .favorites-items {
+  margin-top: 15px;
+}
+
+.favorites-section .card-item_del {
+  top: 35px;
+}
+.favorites-section .card-item_option {
+  width: 30%;
+  padding-right: 30px;
+}
+.favorites-section .card-item_btn {
+  display: table-cell;
+  vertical-align: top;
+  font-family: 'ProximaNova Bold';
+  letter-spacing: 1px;
+  padding-right: 25px;
+  width: 140px;
+}
+
+.favorites-section .card-item_price {
+  font-family: 'ProximaNova Bold';
+  padding-top: 5px;
+}
+
+.favorites-section .favorites-item_availability {
+  display: table-cell;
+  width: 30%;
+  vertical-align: top;
+}
+
+.favorites-item_availability .availability-title {
+  font-family: 'ProximaNova Bold';
+  color: #000;
+  margin-bottom: 3px;
+}
+
+.favorites-item_availability .item-name {
+  font-family: 'ProximaNova Light';
+}
+
+.favorites-item_availability .availability-item {
+  line-height: 1.7;
+}
+
+.favorites-item_availability .item-name:after {
+  content: '—';
+  color: #e6e6e6;
+  margin-left: 10px;
+  margin-right: 6px;
+}
+
+.favorites-item_availability .item-count {
+  font-family: 'ProximaNova Bold';
+}
+
+.favorites-item_availability .item-count.special__stat--2 {
+  font-family: 'ProximaNova Light';
+}
+
+@media screen and (max-width: 1199px) {
+  .favorites-section .card-item_option {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .favorites-section .card-item_img {
+    display: inline-block;
+  }
+
+  .favorites-section .favorites-item_availability {
+    display: inline-block;
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .favorites-section .card-item_option {
+    display: inline-block;
+    width: 280px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .favorites-section .card-item_price {
+    padding-left: 0;
+  }
+
+  .favorites-section .card-item_btn {
+    margin-top: 10px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .favorites-section .card-item_option {
+    width: 270px;
+  }
+
+  .favorites-section .favorites-item_availability {
+    width: 100%;
+  }
+
+  .favorites-section .card-item_price {
+    display: block;
+  }
+
+  .favorites-section .card-item_btn {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .favorites-section .card-item_option {
+    padding-left: 0;
+    width: 100%;
+    display: block;
+  }
+}

@@ -1,0 +1,161 @@
+.vacancy-section .vacancy-content {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.vacancy-section .vacancy-item {
+  width: 50%;
+  float: left;
+}
+.vacancy-section .vacancy-item .vacancy-item_inner {
+  border-top: 1px solid #e6e6e6;
+  padding: 30px 0 20px;
+  min-height: 280px;
+}
+.vacancy-section .vacancy-item:last-of-type .vacancy-item_inner,
+.vacancy-section .vacancy-item:nth-last-of-type(2) .vacancy-item_inner {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.vacancy-section .vacancy-item:nth-of-type(2n) {
+  clear: right;
+  padding-left: 20px;
+}
+
+.vacancy-section .vacancy-item:nth-of-type(2n+1) {
+  clear: left;
+  padding-right: 20px;
+}
+
+.vacancy-section .vacancy-item .vacancy-name {
+  font-size: 18px;
+  font-family: 'ProximaNova Bold';
+  line-height: 1.3;
+}
+
+.vacancy-section .vacancy-item .vacancy-date {
+  font-size: 14px;
+  font-family: 'ProximaNova Light';
+  color: #999;
+  line-height: 1.3;
+  margin-top: 3px;
+  margin-bottom: 12px;
+}
+
+.vacancy-section .vacancy-item .vacancy-list_title {
+  font-size: 14px;
+  color: #000;
+  font-family: 'ProximaNova Bold';
+}
+
+.vacancy-section .vacancy-list {
+  margin-top: 8px;
+  margin-bottom: 10px;
+  padding-left: 0;
+}
+
+.vacancy-section .vacancy-list_item {
+  font-size: 14px;
+  color: #000;
+  line-height: 1.8;
+  font-family: 'ProximaNova Light';
+  list-style: none;
+  position: relative;
+  padding-left: 20px;
+}
+
+
+.vacancy-section .vacancy-list_item:before {
+  content: '—';
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: -1px;
+  color: #d4d4d4;
+}
+
+.vacancy-section .vacancy-text {
+  font-size: 14px;
+  color: #000;
+  line-height: 1.8;
+  font-family: 'ProximaNova Light';
+}
+
+.vacancy-section .vacancy-text .bolder {
+  font-family: 'ProximaNova Bold';
+}
+
+.vacancy-section .vacancy-text .vacancy-phone,
+.vacancy-section .vacancy-text .vacancy-email {
+  display: block;
+}
+
+
+/* Warranty page */
+
+.warranty-section .vacancy-content {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.warranty-section .vacancy-text {
+  margin-top: 0;
+}
+
+.warranty-section .vacancy-content .vacancy-list {
+  margin-top: 0;
+}
+
+.warranty-section .vacancy-content .vacancy-list_item {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.warranty-section .vacancy-content .vacancy-list_item:before {
+  font-size: 14px;
+  top: 2px;
+  color: #04af82;
+}
+
+
+@media screen and (max-width: 767px) {
+
+  .vacancy-section .vacancy-item {
+    float: none;
+    width: 100%;
+  }
+
+  .vacancy-section .vacancy-item:nth-of-type(2n) {
+    clear: none;
+    padding-left: 0;
+  }
+
+  .vacancy-section .vacancy-item:nth-of-type(2n+1) {
+    clear: none;
+    padding-right: 0;
+  }
+
+  .vacancy-section .vacancy-item .vacancy-item_inner {
+    min-height: auto; 
+  }
+
+  .vacancy-section .vacancy-item:nth-last-of-type(2) .vacancy-item_inner {
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .vacancy-section .vacancy-content {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  .warranty-section .vacancy-content {
+    margin-bottom: 0;
+  }
+
+  .vacancy-section .vacancy-item .vacancy-item_inner {
+    padding-top: 20px;
+  }
+}

@@ -1,0 +1,132 @@
+.card-items {
+  margin-bottom: 20px;
+}
+
+.card-section .card-discount {
+  font-size: 14px;
+  color: #000;
+  font-family: 'ProximaNova Light';
+  text-align: right;
+}
+
+.card-section .card-discount .card-discount_sum {
+  width: 16%;
+  padding: 0 10px;
+  display: inline-block;
+  text-align: left;
+}
+
+.card-section .card-discount .card-discount_text:after {
+  content: '';
+  display: inline-block;
+  width: 90px;
+  border-bottom: 1px dotted #e6e6e6;
+  margin-left: 10px;
+}
+
+.card-section .payment-sum {
+  font-size: 18px;
+  color: #000;
+  font-family: 'ProximaNova Bold';
+  text-align: right;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.card-section .payment-sum .payment-sum_sum {
+  width: 16%;
+  padding: 0 10px;
+  display: inline-block;
+  text-align: left;
+}
+
+.card-section .payment-sum .payment-sum_text:after {
+  content: '';
+  display: inline-block;
+  width: 90px;
+  border-bottom: 1px dotted #e6e6e6;
+  margin-left: 10px;
+}
+
+.card-section .card-btns {
+  margin-top: 30px;
+}
+
+.card-section .card-btns .card-details {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 14px;
+  color: #373a72;
+  font-family: 'ProximaNova Light';
+}
+
+.card-section .card-btns .card-checkout {
+  float: right;
+}
+
+
+@media screen and (max-width: 991px) {
+
+  .card-section .card-discount .card-discount_sum {
+    width: 20%;
+  }
+
+  .card-section .payment-sum .payment-sum_sum  {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .card-section .card-discount .card-discount_sum {
+    width: 32%;
+  }
+
+  .card-section .payment-sum .payment-sum_sum  {
+    width: 32%;
+  }
+}
+
+
+@media screen and (max-width: 479px) {
+  .card-section .card-discount {
+    text-align: center;
+  }
+
+  .card-section .card-discount .card-discount_sum {
+    width: auto;
+  }
+
+  .card-section .card-discount .card-discount_text {
+    margin-left: -10px;
+  }
+
+  .card-section .payment-sum {
+    text-align: center;
+  }
+
+  .card-section .payment-sum .payment-sum_sum  {
+    width: auto;
+  }
+
+  .card-section .card-discount .card-discount_text:after {
+    content: none;
+  }
+
+  .card-section .payment-sum .payment-sum_text:after {
+    content: none;
+  }
+
+  .card-section .card-btns {
+    text-align: center;
+  }
+  
+  .card-section .card-btns .card-details {
+    margin-top: 0;
+  }
+
+  .card-section .card-btns .card-checkout {
+    float: none;
+  }
+}

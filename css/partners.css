@@ -1,0 +1,53 @@
+.partners-section .subtitle {
+	font-family: 'ProximaNova Light';
+	font-size: 18px;
+	color: #9a9a9a;
+	margin-bottom: 20px;
+	line-height: 1.6;
+}
+.partners-section .grid li .image-holder {
+	display: table;
+	width: 100%;
+	height: 180px;
+	background: #f3f3f3;
+	text-align: center;
+}
+.partners-section .grid li .image-holder-inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.partners-section .grid li .title {
+	font-family: 'ProximaNova Bold';
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.partners-section .grid li p {
+	font-family: 'ProximaNova Light';
+	font-size: 14px;
+	line-height: 1.6;
+	margin: 8px 0;
+}
+.partners-section .grid li .website {
+	font-size: 14px;
+}
+
+.partners-section .description {
+	padding: 20px 0;
+}
+/*.partners-section .partner-info {
+	padding: 0;
+}*/
+.partners-section .partner-info .partner-info-item {
+	display: inline-block;
+	font-family: 'ProximaNova Light';
+	font-size: 14px;
+	color: #00b181;
+}
+.partners-section .partner-info .partner-info-item:after {
+	content: ',';
+	color: #000000;
+}
+.partners-section .partner-info .partner-info-item:last-child:after {
+	content: '.';
+}

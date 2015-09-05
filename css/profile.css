@@ -1,0 +1,277 @@
+.profile-tab .tab-list {
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  padding-left: 0;
+  height: 50px;
+  margin-bottom: 0;
+}
+
+.profile-tab .tab-list .tab-list_item {
+  float: left;
+  padding: 15px 35px 14px;
+  list-style: none;
+  font-size: 14px;
+  color: #000;
+  font-family: 'ProximaNova Light';
+  background: #fff;
+  border-right: 1px solid #ebebeb;
+  cursor: pointer;
+}
+.profile-tab .tab-list .tab-list_item:first-of-type {
+  padding-left: 0;
+  padding-right: 40px;
+}
+.profile-tab .tab-list .tab-list_item.active {
+  color: #373a72;
+  font-family: 'ProximaNova Bold';
+  padding-bottom: 15px; 
+}
+
+.profile-tab .profile-order {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.profile-tab .profile-order:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.profile-tab .profile-order_title {
+  font-size: 18px;
+  color: #000;
+  font-family: 'ProximaNova Bold';
+}
+
+.profile-order_info .order-info_list {
+  display: inline-block;
+  font-size: 14px;
+  color: #000;
+  font-family: 'ProximaNova Light';
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  vertical-align: top;
+}
+
+.profile-order_info .order-info_list .info-list_item {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  line-height: 1.2; 
+}
+
+.profile-order_info .order-info_list .info-list_item:last-of-type {
+  margin-bottom: 0;
+}
+
+.profile-order_info .list-left {
+  width: 260px;
+}
+
+.profile-order_info .list-items {
+  color: #373a72;
+}
+
+.profile-btn_group {
+  float: right;  
+  margin-top: 14px;
+}
+
+.profile-btn_group .btn-green {
+  margin-right: 35px;
+}
+
+.profile-tab .show-details {
+  font-size: 14px;
+  font-family: 'ProximaNova Bold';
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.profile-section .personal-data {
+  padding-top: 20px;
+}
+.personal-data .personal-data_item {
+  font-size: 14px;
+  display: table;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.personal-data .personal-data_item .personal-data_label {
+  color: #000;
+  font-family: 'ProximaNova Bold';
+  display: table-cell;
+  width: 110px;
+  vertical-align: middle;
+}
+
+.personal-data .personal-data_item .input-wrap {
+  width: 230px;
+}
+
+.personal-data .personal-data_item .input-value {
+  display: none;
+  margin: 0;
+  margin-top: -2px;
+}
+
+.personal-data .personal-data_item .input-wrap_address {
+  width: 426px;
+}
+
+.personal-data .save-changes {
+  margin-top: 30px;
+}
+
+.form-disabled {
+  margin-top: 5px;
+}
+
+.form-disabled .input-wrap {
+  border-color: transparent;
+}
+
+.form-disabled .input-wrap .text-input {
+  display: none;
+}
+.form-disabled .personal-data_item .personal-data_info,
+.form-disabled .personal-data_item .personal-data_label {
+  vertical-align: top;
+}
+
+.form-disabled .input-wrap .input-value {
+  display: block;
+  line-height: 1.7;
+}
+
+.form-disabled .personal-data_item .input-wrap_address {
+  width: 275px;
+}
+
+.form-disabled .personal-data_item .input-wrap_pass {
+  margin-top: -6px;
+}
+
+.form-disabled .personal-data_item .input-wrap {
+  height: auto;
+}
+
+
+
+@media screen and (max-width: 991px) {
+  .profile-order_info .list-left {
+    width: auto;
+    margin-right: 50px;
+  }
+
+  .profile-btn_group {
+    width: 200px;
+    text-align: center;
+  }
+
+  .profile-btn_group .btn-green {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .profile-order_info .list-items {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .profile-tab .profile-order {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .profile-tab .profile-order:last-of-type {
+    padding-bottom: 0;
+  }
+
+  .profile-order_info .list-left {
+    width: 50%;
+    margin-right: 0;
+    float: left;
+    padding-right: 20px;  
+  }
+
+  .profile-order_info .list-items {
+    width: 50%;
+    float: left;
+  }
+
+  .profile-btn_group {
+    width: auto;
+    float: none;
+    text-align: left;
+    clear: both;
+  }
+
+
+  .personal-data .personal-data_item .input-wrap_address {
+    width: 320px;
+  }
+
+
+}
+
+@media screen and (max-width: 479px) {
+
+  .profile-tab .tab-list {
+    height: 48px;
+  }
+
+  .profile-tab .tab-list .tab-list_item {
+    padding: 14px 25px 13px;
+  }
+
+  .profile-tab .tab-list .tab-list_item:first-of-type {
+    padding-right: 30px;
+  }
+
+  .profile-tab .tab-list .tab-list_item.active {
+    padding-bottom: 14px; 
+  }
+
+  .profile-order_info .list-left {
+    width: 100%;
+    float: none;
+    padding-right: 0;
+    margin-bottom: 0;
+  }
+
+  .profile-order_info .list-items {
+    width: 100%;
+    float: none;
+  }
+
+  .profile-btn_group {
+    margin-top: 10px;
+  }
+
+  .profile-tab .show-details {
+    margin-top: 20px;
+  }
+
+  .personal-data .personal-data_item {
+    display: block;
+  }
+
+  .personal-data .personal-data_item .personal-data_label {
+    display: block;
+  }
+
+  .personal-data .personal-data_item .input-wrap {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .form-disabled {
+    margin-top: 0;
+  }
+}

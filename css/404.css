@@ -1,0 +1,77 @@
+.error-section {
+  padding-top: 100px;
+  padding-bottom: 180px;
+}
+
+.error-section .content-title {
+  margin-bottom: 15px;
+}
+
+.error-section .error-text {
+  font-size: 14px;
+  color: #000;
+  line-height: 1.8;
+  font-family: 'ProximaNova Light';
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.error-section .page-list {
+  padding-left: 0;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.error-section .page-list .page-list_link {
+  display: inline-block;
+  font-size: 18px;
+  color: #04af82;
+  font-family: 'ProximaNova Bold';
+  line-height: 1.6;
+}
+
+.error-section .page-list .page-list_link:hover {
+  color: #02906A;
+}
+
+.error-section .error-search {
+  margin-top: 12px;
+}
+
+.error-section .error-search .input-wrap {
+  width: 378px;
+  height: 36px;
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+.error-section .error-search .btn {
+  padding-top: 11px;
+  letter-spacing: 2px;
+  vertical-align: top;
+  padding-bottom: 9px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .error-section {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+
+  .error-section .error-search .input-wrap {
+    width: 343px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .error-section .error-search .btn {
+    margin-top: 10px; 
+    width: 100%;
+  }
+}

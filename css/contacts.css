@@ -1,0 +1,103 @@
+.contacts_content .contacts_img {
+	width: 415px;
+	float: left;
+}
+.contacts_content .contacts_img img {
+	max-width: 100%;
+}
+.contacts_content .contacts_info {
+	width: calc(100% - 415px);
+	float: left;
+	padding-left: 40px;
+}
+.contacts_content .contacts_info .main-contacts p {
+	margin: 0 0 5px;
+	font-family: 'ProximaNova Light';
+	font-size: 18px;
+}
+.contacts_content .contacts_info .main-contacts p a {
+	font-size: 18px;
+	color: #343775;
+}
+.contacts_content .contacts_info .open-time {
+	font-size: 14px;
+	margin: 25px 0;
+	max-width: 430px;
+}
+.contacts_content .contacts_info .write-dir {
+	font-family: 'ProximaNova Bold';
+	font-size: 14px;
+	color: #343775;
+}
+
+.contacts_map {
+	margin-top: 40px;
+}
+
+.contacts_feedback {
+	margin-top: 40px;
+}
+.contacts_feedback h2 {
+	font-size: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.contacts_feedback form {
+	width: 772px;
+	margin: auto;
+}
+.contacts_feedback .select-wrap {
+	padding: 0;
+}
+.contacts_feedback select {
+    display: block;
+    padding: 5px 0 5px 68px;
+    width: 100%;
+    background: none;
+    border: none;
+}
+.contacts_feedback .input-holder {
+	margin-bottom: 15px;
+}
+.contacts_feedback .input-left {
+	width: 48%;
+	float: left;
+}
+.contacts_feedback .input-right {
+	width: 48%;
+	float: right;
+}
+
+.contacts_feedback textarea {
+	height: 165px;
+}
+
+.contacts_feedback .btn-holder {
+	text-align: center;
+	padding-top: 30px;
+}
+
+@media screen and (max-width: 991px) {
+	.contacts_feedback form {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 767px) {
+	.contacts_content .contacts_img,
+	.contacts_content .contacts_info {
+		width: 100%;
+		float: none;
+	}
+	.contacts_content .contacts_info {
+		padding-top: 30px;
+		padding-left: 0;
+	}
+	.contacts_feedback .input-left {
+		margin-bottom: 15px;
+	}
+	.contacts_feedback .input-left,
+	.contacts_feedback .input-right {
+		width: 100%;
+		float: none;
+	}
+}

@@ -1,0 +1,123 @@
+.comparison-section .comparison-item {
+  width: 138px;
+  float: left;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+.comparison-section .comparison-item .comparison-item_link {
+  display: block;
+  height: 435px;
+  text-align: center;
+  line-height: 1.4;
+  font-size: 14px;
+  position: relative;
+}
+
+.comparison-section .comparison-item .comparison-item_img {
+  height: 138px;
+}
+
+.comparison-item .comparison-item_img img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.comparison-item .comparison-item_name {
+  font-family: 'ProximaNova Bold';
+  margin-top: 18px;
+}
+
+.comparison-item .comparison-item_text {
+  color: #666;
+  font-family: 'ProximaNova Light';
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.comparison-item .comparison-item_price {
+  font-family: 'ProximaNova Bold';
+  color: #000;
+  margin-top: 5px;
+}
+
+.comparison-item .comparison-item_footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  line-height: 1.8;
+}
+
+.comparison-item .comparison-item_status {
+  font-family: 'ProximaNova Light';
+}
+
+.comparison-item .comparison-item_del {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.comparison-item .comparison-item_del img {
+  display: block;
+}
+
+.comparison-section .slider-wrap {
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+
+.comparison-section .slider {
+  overflow: hidden;
+}
+
+.comparison-section .slider-inner {
+  position: relative;
+}
+
+.comparison-section .range-slider {
+  height: 11px;
+  position: relative;
+  cursor: pointer;
+  padding: 5px 0;
+  margin-top: 60px;
+}
+
+.comparison-section .range-track_full {
+  background: #e6e6e6;
+  height: 1px;
+}
+
+.comparison-section .range-track {
+  background: #383a73;
+  height: 1px;
+  width: 0;
+  position: absolute;
+  top: 5px;
+}
+
+.comparison-section .range-drag {
+  width: 18px;
+  height: 18px;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background: #383a73;
+  margin-left: -9px;
+  position: absolute;
+  top: -3px;
+}
+
+@media screen and (max-width: 991px) {
+  .comparison-section .comparison-item {
+    margin-right: 14px;
+    margin-left: 15px;
+  }
+}
+
+
+
+
