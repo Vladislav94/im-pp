@@ -3,7 +3,8 @@
   border-bottom: 1px solid #ebebeb;
   padding-left: 0;
   height: 50px;
-  margin-bottom: 0;
+  margin-top: 21px;
+  margin-bottom: 6px;
 }
 
 .profile-tab .tab-list .tab-list_item {
@@ -95,8 +96,12 @@
 .personal-data .personal-data_item {
   font-size: 14px;
   display: table;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 10px;
+}
+
+.personal-data .personal-data_item.bottom {
+  margin-bottom: 20px;
 }
 
 .personal-data .personal-data_item .personal-data_label {
@@ -122,7 +127,7 @@
 }
 
 .personal-data .save-changes {
-  margin-top: 30px;
+  margin-top: 13px;
 }
 
 .form-disabled {

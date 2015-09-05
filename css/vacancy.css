@@ -9,7 +9,7 @@
 }
 .vacancy-section .vacancy-item .vacancy-item_inner {
   border-top: 1px solid #e6e6e6;
-  padding: 30px 0 20px;
+  padding: 26px 0 20px;
   min-height: 280px;
 }
 .vacancy-section .vacancy-item:last-of-type .vacancy-item_inner,
@@ -49,7 +49,7 @@
 }
 
 .vacancy-section .vacancy-list {
-  margin-top: 8px;
+  margin-top: 4px;
   margin-bottom: 10px;
   padding-left: 0;
 }
@@ -57,7 +57,7 @@
 .vacancy-section .vacancy-list_item {
   font-size: 14px;
   color: #000;
-  line-height: 1.8;
+  line-height: 1.77;
   font-family: 'ProximaNova Light';
   list-style: none;
   position: relative;

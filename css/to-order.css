@@ -5,6 +5,8 @@
   font-family: 'ProximaNova Light';
   list-style: none;
   margin-left: 0;
+  margin-top: 7px;
+  margin-bottom: 5px;
   padding-left: 0;
 }
 .toorder-info .toorder-info_list .info-item {
@@ -17,7 +19,7 @@
   margin-bottom: 0;
 }
 .toorder-section .toorder-info .list-first {
-  width: 260px;
+  width: 255px;
 }
 
 .toorder-section .toorder-info .toorder-item_change {
